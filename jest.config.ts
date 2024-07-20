@@ -7,6 +7,7 @@ const config: JestConfigWithTsJest = {
 	transform: {
 		...createDefaultPreset().transform,
 	},
+	//  Same error with swc
 	// transform: {
 	// 	'^.+\\.(t|j)sx?$': [
 	// 		'@swc/jest',

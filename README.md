@@ -4,6 +4,10 @@
 
 npm install
 
-# Run tests
+# Run tests to reproduce the issue with JEST
 
 npm run test
+
+# Run tests to reproduce the issue with VITEST
+
+npm run test:vitest
